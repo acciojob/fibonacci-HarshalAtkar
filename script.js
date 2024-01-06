@@ -7,6 +7,6 @@ let finonachi = [0, 1];
     return finonachi[num];
 }  
 	
-}
+
 
 module.exports = fibonacci;
