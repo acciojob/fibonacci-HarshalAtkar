@@ -1,11 +1,11 @@
 function fibonacci(num) {
 // your code here
-	if (n <= 1)
-	{return n}
-        
-    else
-	{return(fibonacci(n-1) + fibonacci(n-2))}
-        
+let finonachi = [0, 1];
+    for (let i = 2; i <= num; i++) {
+        finonachi[i] = finonachi[i - 1] + finonachi[i - 2];
+    }
+    return finonachi[num];
+}  
 	
 }
 
